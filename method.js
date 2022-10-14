@@ -13,8 +13,8 @@ const student = {
         console.log(this.bestFriend.name, 'taking exam');
     },
     treat: function (expense, tip) {
-        this.balance = this.balance - expense - tip;
-        return this.balance;
+        this.balance1 = this.balance - expense - tip;
+        return this.balance1;
     }
 }
 

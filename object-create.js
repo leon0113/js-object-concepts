@@ -8,7 +8,7 @@ console.log(person);
 const human = Object.create(student);
 console.log(human.Job);
 
-// class i Syntactical Sugar
+// class is Syntactical Sugar
 class People {
     constructor(name, age) {
         this.name = name;
@@ -19,8 +19,9 @@ const peop = new People('leon', 24);
 console.log(peop);
 
 //function 
-function Manus(name) {
-    this.name = name;
+function Manus(name1, age1) {
+    this.name = name1;
+    this.age = age1;
 }
-const man = new Manus('Leon');
+const man = new Manus('Leon', 21);
 console.log(man);
