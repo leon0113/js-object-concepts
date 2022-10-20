@@ -11,7 +11,7 @@ const bottle = {
 ! for(const prop in student){} // used in object
 */
 for (const prop in bottle) {
-    console.log(prop, bottle[prop]);
+    // console.log(prop, bottle[prop]);
 }
 
 const keys = Object.keys(bottle);

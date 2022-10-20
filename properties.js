@@ -29,4 +29,4 @@ delete Object.price;
 // Object.freeze(bottle); freeze()  It also does not allow to change ther values
 
 bottle.price = 30;
-console.log(bottle);
+// console.log(bottle);
